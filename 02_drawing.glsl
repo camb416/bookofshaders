@@ -28,7 +28,7 @@ void main(){
    // float y = step(0.5, st.x); // stair
    // float y = smoothstep(0.1,0.9,st.x); // slide
    // float y = smoothstep(0.2,0.5,st.x) - smoothstep(0.5,0.8,st.x); // hump
-   //float y = sin(st.x*PI + iTime*2.0)/2.0+0.5; // wave
+   // float y = sin(st.x*PI + iTime*2.0)/2.0+0.5; // wave
    // float y = abs(sin(st.x*PI + iTime*2.0)); // bounce
    float y = fract(sin(st.x*PI + iTime*2.0)); // bounce
 
